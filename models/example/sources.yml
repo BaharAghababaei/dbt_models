@@ -1,0 +1,11 @@
+version: 2
+
+
+sources:
+  - name: demo # how we are going to reference this source in modle
+    database: DEMO
+    schema: demo_schema
+    tables:
+      - name: bike
+      - name: weather
+    
