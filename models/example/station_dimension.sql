@@ -4,7 +4,7 @@ with bike as(
     start_station_name as station_name,
     start_lat as station_lat,
     start_lng as station_long
-    from {{ source('demo', 'bike') }}
+    from {{ ref('stg_bike') }}
 
 )
 
